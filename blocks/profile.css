@@ -7,27 +7,103 @@
 }
 
 .profile__avatar {
-  margin-right: 20px; 
+  margin-right: 20px;
+  height: 190px;
+  width: 190px;
 }
 
 .profile__column {
   display: flex;
   flex-direction: column;  
+  width: 420px;
+  height: 190px;
 }
 
 .profile__name {
   margin:0 0 12px;  
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 420px;
+  
 }
 
 .profile__description {
-  margin: 0;  
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  font-family: Poppins, Arial, Helvetica, sans-serif;  
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 420px;
 }
 
 .profile__edit-btn {
-  margin-top: auto;  
+  margin-top: auto;
+  font-weight: 500;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1;
 }
 
 
 .profile__add-btn {
-    margin-left: auto;
+  margin-left: auto;
+  font-weight: 500;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  background-color: #212121;
+  color: white;
+  border-radius: 8px;
+
+}
+
+@media screen and (max-width: 627px) {
+ .profile {
+  flex-direction: column;
+  max-width: 288px;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+ }
+
+ .profile__name{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
+  font-family: poppins, Arial, Helvetica, sans-serif;
+  margin: 0 0 6px;
+  max-width: 288px;
+ }
+
+.profile__avatar {
+  margin: 0 0 12px;
+  height: 80px;
+  width: 80px;
+  margin-bottom: 12px;
+}
+
+.profile__column {
+ margin: 0 0 20px;
+}
+
+.profile__description {
+ margin: 0 0 32px;
+}
+
+.profile__add-btn {
+  margin: 0;
+  width: 100%;
+  border-radius: 8px;
+  
+}
+
+.profile__edit-btn {
+
+}
+
 }

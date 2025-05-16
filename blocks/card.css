@@ -1,11 +1,14 @@
-.card {
-  width: 413px;
-}
 
+.card__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
 
 .card__image {
   height: 413px;  
-  width: 413px;
+  width: 100%;
   object-fit: cover;
   display: block;
 }
@@ -14,6 +17,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 }
 
 .card__like-btn {
@@ -23,4 +27,11 @@
  border: none;
  background-color: transparent;
  opacity: 40%;
+}
+
+@media screen and (max-width: 627px) {
+   .card__image {
+    height: 288px;
+  }
+  
 }
