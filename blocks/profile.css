@@ -58,8 +58,8 @@
   font-size: 16px;
   line-height: 1;
   background-color: #fcf5E5;
-  border: none;
   margin-right: auto;
+  border: none;
   padding: 0;
 }
 
@@ -82,6 +82,24 @@
   padding-top: 18px;
   padding-bottom: 18px;
   gap:8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  }
+
+  .profile__add-btn img {
+    width: 16px;
+    height: 16px;
+     width: 12px;
+    height: 12px;
+    border: 2px;
+  }
+
+  .plus-icon {
+    width: 18.48px;
+    height: 18.48px;
+    color: #fcf5e5;
   }
  
   .pencil-icon {
@@ -120,7 +138,8 @@
 }
 
 .profile__column {
- margin: 0 0 20px;
+ margin: 0;
+ max-width: 288px;
 }
 
 .profile__description {
@@ -135,6 +154,17 @@
 }
 
 .profile__edit-btn {
+ width: 107.34px;
+ height: 16px;
+ opacity: 70%;
+ margin-top: 15px;
+ margin-bottom: 0;
+ margin-left: auto;
+ margin-right: auto;
+ display: block;  
+ position: static
+
+
 
 }
 
