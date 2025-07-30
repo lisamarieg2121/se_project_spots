@@ -2,13 +2,21 @@
 
 ### Overview  
 
-* Intro  
-* Figma  
-* Images  
+**This is a travel photo-sharing website I replicated from a Figma design. It's a fun and vibrant space where globetrotters can show off their favorite travel snaps, explore amazing places through other people's lenses, and maybe even catch the itch to plan their next adventure!**
+
+
+## Tech Stack
+-HTML
+-CSS
+-Responsive design 
+
+## Deployment 
+This webpage is deployed to GitHub pages
+
   
 **Intro**
   
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
+The Spots project I replicated was created to  focus on making the website look efficient and function properly on all kinds of devices—whether someone is browsing on a large desktop monitor, a laptop, a tablet, or even a small phone screen. The goal is to make sure that everything—text, images, buttons, and other elements—resizes and adjusts in a way that feels natural and easy to use, no matter the screen size.
   
 **Figma**  
   
@@ -18,4 +26,4 @@ This project is made so all the elements are displayed correctly on popular scre
   
 The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
   
-Good luck and have fun!
+
