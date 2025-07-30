@@ -119,26 +119,28 @@
   padding-top: 20px;
  }
 
- .profile__name{
+ .profile__avatar {
+  margin: 0 0 12px;
+  height: 80px;
+  width: 80px;
+ 
+}
+
+
+ .profile__name {
   
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   font-family: poppins, Arial, Helvetica, sans-serif;
-  margin: 0 auto 6px;
+  margin: 0 0 6px;
   max-width: 288px;
   
  }
 
-.profile__avatar {
-  margin: 0 0 12px;
-  height: 80px;
-  width: 80px;
-  margin-bottom: 12px;
-}
 
 .profile__column {
- margin: 0;
+ margin: 0 0 20px;
  max-width: 288px;
 }
 
@@ -149,6 +151,8 @@
 .profile__add-btn {
   margin: 0;
   width: 100%;
+  font-size: 16px;
+  line-height: 1;
   border-radius: 8px;
   
 }
