@@ -1,6 +1,6 @@
 # Project 3: Spots
 
-### Overview  
+# Overview  
 
 **This is a travel photo-sharing website I replicated from a Figma design. It's a fun and vibrant space where globetrotters can show off their favorite travel snaps, explore amazing places through other people's lenses, and maybe even catch the itch to plan their next adventure!**
 
@@ -11,8 +11,9 @@
 -Responsive design 
 
 ## Deployment 
-This webpage is deployed to GitHub pages
+This webpage is deployed to GitHub Pages
 
+-Deployment Link: https://lisamarieg2121.github.io/se_project_spots
   
 **Intro**
   
